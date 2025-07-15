@@ -6,6 +6,8 @@
 /* HEADER STYLES */
 header {
     background-color: #2082A6;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -37,11 +39,16 @@ h1 {
     text-align: center;
 }
 
+.profile-pic-class {
+    width: 300px;
+    height: auto;
+}
+
 #greeting > p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
-    font-style: italic;
     padding: 15px 0 0 0;
+    width: 500px;
 }
 
 #greeting {
@@ -51,6 +58,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* PROJECT STYLES */
